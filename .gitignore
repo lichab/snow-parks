@@ -2,3 +2,4 @@
 node_modules
 snow-parks-server
 snow-parks-templates
+*.log
