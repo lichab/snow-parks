@@ -1,0 +1,19 @@
+{
+	"name": "snow-parks-utils",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx mocha *.spec.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/runtime": "^7.8.7",
+		"snow-parks-errors": "file:../snow-parks-errors"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^7.1.0"
+	}
+}

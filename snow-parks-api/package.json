@@ -1,0 +1,34 @@
+{
+	"name": "snow-parks-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node .",
+		"watch": "nodemon .",
+		"test": "npx mocha logic",
+		"test-debug": "npx mocha debug logic",
+		"test:coverage": "npx nyc --reporter=html --reporter=text mocha logic/**/*.spec.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"morgan": "^1.9.1",
+		"snow-parks-data": "file:../snow-parks-data",
+		"snow-parks-errors": "file:../snow-parks-errors",
+		"snow-parks-utils": "file:../snow-parks-utils",
+		"winston": "^3.2.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^7.1.0",
+		"nodemon": "^2.0.2",
+		"nyc": "^15.0.0"
+	}
+}

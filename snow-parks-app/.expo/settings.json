@@ -1,0 +1,8 @@
+{
+  "dev": true,
+  "minify": false,
+  "urlRandomness": "ak-bt9",
+  "hostType": "lan",
+  "lanType": "ip",
+  "https": false
+}
